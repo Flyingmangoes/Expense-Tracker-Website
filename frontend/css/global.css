@@ -1,0 +1,64 @@
+/* GLOBAL CONFIG*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main1);
+    font-size: 16px;
+    color: var(--text-dark);
+    line-height: 1.6;
+    background: var(--backgroundcolor1);
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: var(--text-dark);
+}
+
+
+:root {
+    --backgroundcolor1  : linear-gradient(75deg, #2e2e2e 0%, #1a1a1a 50%);
+    --font-main1        : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-main2        : 'Inter', sans-serif;
+    --text-light        : #e5e5e5;
+    --text-dark         : #333;
+    --registerbackground: #ffffff;
+    --submitbuttoncolor :   #28a745;
+}
+
+/* ---FONT CONFIG--- */
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/font/inter/Inter-Regular.woff2') format('woff2'),
+         url('../assets/font/inter/Inter-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/font/inter/Inter-Italic.woff2') format('woff2'),
+         url('../assets/font/inter/Inter-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/font/inter/Inter-Bold.woff2') format('woff2'),
+         url('../assets/font/inter/Inter-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

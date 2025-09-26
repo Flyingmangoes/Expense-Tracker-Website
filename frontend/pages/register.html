@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPNS - Register</title>
+    <!-- Global + pagecss-->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/register&login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- favicon-->
+    <link rel="icon" type="image/png" href="../assets/img/logo1.png">
+    <!-- SEO -->
+    <meta name="description" content="Sign up for EXPNS - Smart expense tracking made simple. Create your account today." />
+    <meta name="keywords" content="expense tracker, budgeting, finance, signup" />
+</head>
+<body>
+    <!--- register --->
+    <div class="register-pages">
+        <div class="registerbox">
+            <div class="registercontent">
+                <div class="companyicon">
+                    <img src="../assets/img/logo1.png">
+                    <span class="companytitle">EXPNS</span>
+                </div>
+                <h1>SIGN UP</h1>
+                <form id="register-form">
+                    <div class="register-input">
+                        <input type="text" name="username" id="username" required>
+                        <label for="username">
+                            Username
+                        </label>
+                    </div>
+                    <div class="register-input">
+                        <input type="text" name="usermail" id="usermail" required>
+                        <label for="usermail">
+                            Email
+                        </label>
+                    </div>
+                    <div class="register-input">
+                        <input type="password" name="password" id="password"required>
+                        <label for="password">
+                             Password
+                        </label>
+                    </div>
+                    <div class="gender-options">
+                        <label>Gender</label>
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit" id="submitBtn">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--- alert box  --->
+    <div class="alert-overlay">
+            <div class="alert-window">
+                <div class="alert-titlebar">
+                    <span class="alert-title">Alert!</span>
+                    <button type="button" id="close-alert" class="alert-button">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="alert-content">
+                    Something went wrong!
+            </div>
+        </div>
+    </div>
+    <script src="../js/loginandregister.js" defer></script>
+</body>
+</html>

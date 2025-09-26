@@ -1,0 +1,285 @@
+
+/* ---LANDING PAGES--- */
+.landing-pages {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ---HEADER--- */
+.landingheaderbox{
+    margin: 20px 0 0 0;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--text-light);
+}
+
+.landing_icon{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 0.5rem;
+}
+
+.landing_icon img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.landinglogotext {
+    font-weight: bold;
+    color: var(--text-dark);
+    font-size: 1.6rem;
+}
+.landingnavmenu {
+    width: 650px;
+    height: 50px;
+    background-color: #131313
+}
+
+.landingnavmenu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.landingnavmenu li {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.3s;
+}
+.landingnavmenu li:hover {
+    background-color: #3f3e3e;
+}
+.landingnavmenu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.landingnavmenu a{
+    text-decoration: none;
+    color: var(--text-light);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.landingnavmenu li:hover a {
+    color: grey;
+}
+
+.landingnavmenu i {
+    font-size: 18px;
+}
+
+/* ---LANDING PAGE CONTENT--- */
+
+.landingcontentbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: calc(100vh - 125px);
+    position: relative;
+
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.landingtagline {
+    width: 40%;
+    height: 100%;
+    color: var(--text-light);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.landingtagline h1 {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+}
+
+.landingtagline p {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+}
+
+.landinghero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.landing_video {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+/* ---ABOUT PAGES--- */
+.about-pages {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ---HEADER--- */
+.aboutheaderbox {
+    margin: 0 auto;
+    width: 60%; 
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--text-light);
+}
+
+.about_icon {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    box-sizing: border-box;
+    gap: 0.5rem;
+}
+
+.about_icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.aboutlogotext {
+    font-weight: bold;
+    color: var(--text-dark);
+    font-size: 1.6rem;
+}
+
+.aboutnavbar {
+    height: 100%;
+    width: 300px;
+    margin-right: 25px;
+}
+
+.aboutnavbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.aboutnavbar li {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.aboutnavbar li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.aboutnavbar a{
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+}
+
+.aboutnavbar li:hover a {
+    color: grey;
+}
+
+/* ---MAINCONTENT--- */
+.about_box {
+    max-width: 1800px;
+    height: 500px;
+    margin: 20px ;
+}
+
+.aboutcontent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.companypic {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.companypic img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.introduction {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.5px solid black;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.introduction h1 {
+    font-family: var(--font-main2);
+    color: var(--text-light);
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.introduction p {
+    font-family: var(--font-main2);
+    font-weight: 500;
+    text-align: center;
+    color: var(--text-light);
+}
+
+
