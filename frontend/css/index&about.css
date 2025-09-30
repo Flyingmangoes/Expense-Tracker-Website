@@ -5,12 +5,14 @@
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
+    background: var(--backgroundcolor1);
 }
 
 /* ---HEADER--- */
 .landingheaderbox{
-    margin: 20px 0 0 0;
-    height: 125px;
+    margin-top: 20px;
+    width: auto;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +40,7 @@
     font-size: 1.6rem;
 }
 .landingnavmenu {
-    width: 650px;
+    width: 50%;
     height: 50px;
     background-color: #131313
 }
@@ -93,21 +95,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     min-height: calc(100vh - 125px);
     position: relative;
-
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 30px;
+    padding: 25px 25px 0 25px;
 }
 
 .landingtagline {
     width: 40%;
     height: 100%;
     color: var(--text-light);
-    
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,6 +146,7 @@
     position: relative;
     min-height: 100vh;
     width: 100%;
+    background: var(--backgroundcolor1);
     overflow: hidden;
 }
 
@@ -177,6 +176,7 @@
 }
 
 .aboutlogotext {
+    font-family: var(--font-main2);
     font-weight: bold;
     color: var(--text-dark);
     font-size: 1.6rem;
@@ -184,7 +184,7 @@
 
 .aboutnavbar {
     height: 100%;
-    width: 300px;
+    width: 40%;
     margin-right: 25px;
 }
 
@@ -228,14 +228,15 @@
 
 /* ---MAINCONTENT--- */
 .about_box {
-    max-width: 1800px;
-    height: 500px;
-    margin: 20px ;
+    width:100%;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .aboutcontent {
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -258,24 +259,26 @@
 .introduction {
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: ;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: 0.5px solid black;
-    background: rgba(0, 0, 0, 0.3);
 }
 
 .introduction h1 {
+    border-bottom: white 1px solid;
     font-family: var(--font-main2);
     color: var(--text-light);
     letter-spacing: 1px;
     font-size: 2rem;
-    margin: 20px;
+    margin: 10px;
 }
 
 .introduction p {
+    padding: 10px 80px;
+    font-size: 1rem;
+    letter-spacing: 1.1px;
     font-family: var(--font-main2);
     font-weight: 500;
     text-align: center;

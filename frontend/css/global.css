@@ -10,7 +10,6 @@ body {
     font-size: 16px;
     color: var(--text-dark);
     line-height: 1.6;
-    background: var(--backgroundcolor1);
     width: auto;
     height: 100vh;
     margin: 0;
@@ -24,6 +23,7 @@ header {
 
 :root {
     --backgroundcolor1  : linear-gradient(75deg, #2e2e2e 0%, #1a1a1a 50%);
+    --expensestheme     : linear-gradient(135deg, rgba(65, 70, 80, 1) 0%, rgba(35, 40, 50, 1) 100%);
     --font-main1        : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-main2        : 'Inter', sans-serif;
     --text-light        : #e5e5e5;
