@@ -5,9 +5,9 @@ from routes.user_routes import users_bp
 
 app = Flask(__name__)
 
-app.register_blueprint()
-app.register_blueprint()
-app.register_blueprint()
+app.register_blueprint(auth_bp)
+app.register_blueprint(expenses_bp)
+app.register_blueprint(users_bp)
 
 if __name__ == "__main__":
     app.run(debug=True)
